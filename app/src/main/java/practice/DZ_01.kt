@@ -98,7 +98,7 @@ fun passwordStrength(password : String) {
         }
     }
     for (ch in password) {
-        if (ch.isLetterOrDigit()) {
+        if (!ch.isLetterOrDigit()) {
             check++
             break
         }
