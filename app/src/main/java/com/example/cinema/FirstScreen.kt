@@ -44,6 +44,7 @@ fun FirstScreen(onNavigateToSecondScreen: () -> Unit) {
             textStyle = TextStyle(fontSize = 32.sp),
             modifier = Modifier.fillMaxWidth()
         )
+
         Spacer(modifier = Modifier.height(16.dp))
 
         Button(

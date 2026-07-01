@@ -71,5 +71,6 @@ object DataRepository {
             name = "Душа",
             releaseDate = 2020
         )
+
     )
 }
